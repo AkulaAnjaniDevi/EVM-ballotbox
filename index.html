@@ -1,0 +1,134 @@
+<html>
+    <head>
+
+        <title>Ballot box</title>
+        <link rel="stylesheet" href="exam.css">
+        <meta name=""viewport" content="width=device-width,initial scale=1">
+        <link rel="icon" href="logo.png">
+        <meta charset=""utf-8">
+        <meta name="author" content="Anjani Devi_n180331">
+    </head>
+
+    <body bgcolor="azure">
+        <div id="div1">
+            <p id="para1">READY <button class="but"></button></p>
+           <p id="para"><b>Ballot Unit</b></p>
+            <div id="subdiv1">
+                
+               <button type="button" class="button">Congress<img id ="img1" src="congress.png" height="30" width="30"></button>
+               <button type="button"class="button1">BJP<img id ="img1" src="BJP.jpg" height="30" width="30"></button>
+               <button type="button" class="button2">TDP<img id ="img1" src="tdp.jpeg" height="30" width="30"></button>
+               <button type="button" class="button7">YSR CONGRESS<img id ="img1" src="ysrcon.jpeg" height="30" width="30"></button>
+               <button type="button"class="button3">Lokshata<img id ="img1" src="loks.png" height="30" width="30"></button>
+               <button type="button" class="button4">CPM<img id ="img1" src="cpm.png" height="30" width="30"></button>
+               <button type="button" class="button5">TRS<img id ="img1" src="trs.jpeg" height="30" width="30"></button>
+               <button type="button" class="button6">PRP<img id ="img1" src="prp.png" height="30" width="30"></button>
+               <button type="button" class="button8"></button>
+               
+           
+
+            </div>
+            <div id="subdiv2">
+                <div class="rlist" id="but0">
+                        <img src="slidearrow.jpeg" id="slarr">
+                        <button id="slide" onclick="image()"></button>
+                 </div>
+                 <div class="rlist" id="but1">
+                    <img src="slidearrow.jpeg" id="slarr">
+                    <button id="slide" onclick="image1()"></button>
+             </div>
+             <div class="rlist" id="but2">
+                <img src="slidearrow.jpeg" id="slarr">
+                <button id="slide" onclick="image2()"></button>
+         </div>
+         <div class="rlist" id="but3">
+            <img src="slidearrow.jpeg" id="slarr">
+            <button id="slide" onclick="image3()"></button>
+     </div>
+     <div class="rlist" id="but4">
+        <img src="slidearrow.jpeg" id="slarr">
+        <button id="slide" onclick="image4()"></button>
+ </div>
+ <div class="rlist" id="but5">
+    <img src="slidearrow.jpeg" id="slarr">
+    <button id="slide" onclick="image5()"></button>
+</div>
+<div class="rlist" id="but6">
+    <img src="slidearrow.jpeg" id="slarr">
+    <button id="slide" onclick="image6()"></button>
+</div>
+<div class="rlist" id="but7">
+    <img src="slidearrow.jpeg" id="slarr">
+    <button id="slide" onclick="image7()"></button>
+</div>
+<div class="rlist" id="but8">
+    <img src="slidearrow.jpeg" id="slarr">
+    <button id="slide"></button>
+</div>
+
+            </div>
+        </div>
+        <div id="div2">
+            <div id="subdiv3">
+                <img class="imgdisplay" id="displaypic" src="" style="display:none"/>
+</div>
+
+            <button id="power"></button>
+
+            <div class="button-container">
+          
+                <div class="row">
+                    <button type="button" id="turnoff" onclick="togglePower()">
+                        <img src="turnoff.jpeg" height="30" width="30">
+                    </button>
+                </div>
+        
+                <div class="row">
+                    <button type="button" id="tick" onclick="select()">
+                        <img src="tick.jpeg" height="30" width="30">
+                    </button>
+                    <button type="button" id="wrong" onclick="unsubmit()">
+                        <img src="wrong.jpeg" height="30" width="30">
+                    </button>
+                </div>
+        
+           
+                <div class="row">
+                    <button type="button" id="reset" onclick="reset()">Reset</button>
+                    <button type="button" id="clear" onclick="countDisplay()">Count</button>
+                </div>
+        
+             
+                <div class="row">
+                    <button type="button" id="leftarr" onclick="ballotdisplay()">
+                        <img src="left.jpeg" height="30" width="30">
+                    </button>
+                    <button type="button" id="rightarr" onclick="ballotdisplay()">
+                        <img src="right.jpeg" height="30" width="30">
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+            <div id="countpage">
+                <h4 style="font-size: 28px; color:rgb(235, 19, 19)">Votes Count for each party</h4>
+                <p>Congress Got <span id="c1">votes</span></p>
+                <p>BJP Got <span id="c2">votes</span></p>
+                <p>TDP Got <span id="c3">votes</span></p>
+                <p>YSR CONGRESS Got <span id="c4">votes</span></p>
+                <p>Loksatha Got <span id="c5">votes</span></p>
+                <p>CPM Got <span id="c6">votes</span></p>
+                <p>TRS Got <span id="c7">votes</span></p>
+                <p>PRP Got <span id="c8">votes</span></p>
+                <script src="exam.js"></script>
+            </div></body></html>
+   
+    
+        
+      
+      
+
+<!-- 
+
+            <button type="button" id="tick1" onclick="countDisplay()"><img id src="tick.jpeg" height="30" width="30"></button>
+            <button type="button" id="wrong1" onclick="ballotdisplay()"><img src="wrong.jpeg" height="30" width="30"></button><br> -->
