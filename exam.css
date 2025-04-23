@@ -1,89 +1,84 @@
-#div1
-{
-width: 50%;
-float:left;
-margin-left: 15px;
-height: 680px;
-border-radius: 20px;
-margin-top: 8px;
-background-color: rgba(123, 126, 108, 0.342);
+/* Your original CSS */
+#div1 {
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+    height: 680px;
+    border-radius: 20px;
+    margin-top: 8px;
+    background-color: rgba(123, 126, 108, 0.342);
 }
-#div2{
+
+#div2 {
     border-radius: 4px;
     margin-top: 40px;
     border-width: 4px;
     border-style: solid;
     border-color: black;
-    
     height: 600PX;
     width: 30%;
     margin-right: 100px;
-    float:right;
+    float: right;
     background-color: rgb(196, 201, 196);
-
 }
-.imgdisplay{
+
+.imgdisplay {
     margin-top: 3px;
     height: 80px;
     width: 90px;
     border-radius: 100px;
     margin-left: 100px;
 }
-#subdiv1
-{
-width:50%;
-float:left;
-border-radius: 15px;
-margin-left: 45px;
-height: 570px;
-margin-top: 10px;
-background-color: rgb(132, 139, 148);
-}
-#subdiv2{
-    border-radius: 15px;
 
+#subdiv1 {
+    width: 50%;
+    float: left;
+    border-radius: 15px;
+    margin-left: 45px;
+    height: 570px;
+    margin-top: 10px;
+    background-color: rgb(132, 139, 148);
+}
+
+#subdiv2 {
+    border-radius: 15px;
     height: 530PX;
     width: 38.5%;
     margin-right: 30px;
-    float:right;
+    float: right;
     background-color: rgb(238, 238, 238);
-
 }
-#subdiv3{
+
+#subdiv3 {
     border-radius: 8px;
     height: 90px;
     width: 300px;
-    
-  
     margin-left: 70px;
     margin-top: 40px;
     background-color: black;
 }
-#turnoff{
+
+#turnoff {
     height: 50px;
     width: 50px;
     box-shadow: 2px 2px 4px #000000;
     background-color: green;
     margin-bottom: 50px;
     margin-left: 200px;
-
 }
-#reset{
+
+#reset {
     height: 50px;
     width: 140px;
     box-shadow: 2px 2px 4px #000000;
-    /* margin-left: 30px; */
     font-weight: bold;
     margin-top: 30px;
     font-size: 25px;
     color: yellow;
-
     background-color: red;
-    
- 
 }
 
-#clear{
+#clear {
     margin-top: 30px;
     height: 50px;
     width: 120px;
@@ -100,110 +95,94 @@ background-color: rgb(132, 139, 148);
     gap: 25px; /* Spacing between buttons in the same row */
 }
 
-#tick{
-    height: 50px;
-    width: 50px;
-   
-    box-shadow: 2px 2px 4px #000000;
-
-    background-color: rgb(197, 201, 197);
- 
-
-}
-#wrong{
+#tick {
     height: 50px;
     width: 50px;
     box-shadow: 2px 2px 4px #000000;
     background-color: rgb(197, 201, 197);
 }
-#tick1{
+
+#wrong {
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: rgb(197, 201, 197);
+}
+
+#tick1 {
     height: 50px;
     width: 50px;
     margin-left: 50px;
     margin-bottom: 2px;
     box-shadow: 2px 2px 4px #000000;
-
     background-color: rgb(197, 201, 197);
-    
-
 }
 
-#wrong1{
-   
+#wrong1 {
     height: 50px;
     width: 50px;
     margin-left: 30px;
     box-shadow: 2px 2px 4px #000000;
-
     background-color: rgb(197, 201, 197);
-    
-
 }
-#leftarr{
-    
+
+#leftarr {
     margin-top: 30px;
-   
     height: 50px;
     width: 50px;
     box-shadow: 2px 2px 4px #000000;
-
     background-color: rgb(197, 201, 197);
-    
-
 }
-#rightarr{
+
+#rightarr {
     margin-top: 30px;
-    
     height: 50px;
     width: 50px;
     box-shadow: 2px 2px 4px #000000;
-
     background-color: rgb(197, 201, 197);
-    
-
 }
 
-.button{
+.button {
     margin-top: 50PX;
     height: 54px;
     width: 333px;
     transition-duration: 0.4s;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     border-radius: 12px;
-   
     border: none;
     color: red;
     display: block;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-
 }
-.button:hover{
+
+.button:hover {
     background-color: aliceblue;
 }
-.button1{height: 55px;
+
+.button1 {
+    height: 55px;
     width: 333px;
     transition-duration: 0.4s;
     border-radius: 10px;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     border: none;
-    
     color: red;
     margin-top: 2PX;
     font-size: 25px;
     display: block;
     text-align: center;
     text-decoration: none;
-   
-
 }
-.button1:hover{
+
+.button1:hover {
     background-color: aliceblue;
 }
-#power{
+
+#power {
     height: 30px;
     width: 30px;
     border-radius: 100%;
@@ -211,16 +190,19 @@ background-color: rgb(132, 139, 148);
     margin-left: 350px;
     background-color: green;
 }
-#img1{
+
+#img1 {
     float: right;
     border-radius: 100%;
 }
-.button2{height: 55px;
+
+.button2 {
+    height: 55px;
     width: 333px;
     transition-duration: 0.4s;
     margin-top: 2px;
     border-radius: 12px;
-    background-image:linear-gradient(to bottom,rgb(245, 240, 240),rgb(156,250,218));
+    background-image: linear-gradient(to bottom, rgb(245, 240, 240), rgb(156, 250, 218));
     font-weight: bold;
     border: none;
     color: red;
@@ -228,174 +210,177 @@ background-color: rgb(132, 139, 148);
     text-align: center;
     text-decoration: none;
     font-size: 25px;
+}
 
-}
-.button2:hover{
+.button2:hover {
     background-color: aliceblue;
 }
-.button3{height: 55px;
-    width: 333px;
-    transition-duration: 0.4s;
-    border-radius: 12px;
-   
-    border: none;
-    color: red;
-    display: block;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2PX;
-    font-size: 25px;
-    text-decoration: none;
-    
 
-}
-.button3:hover{
-    background-color: aliceblue;
-}
-.button4:hover{
-    background-color: aliceblue;
-}
-.button5:hover{
-    background-color: aliceblue;
-}
-.button6:hover{
-    background-color: aliceblue;
-}
-.button7:hover{
-    background-color: aliceblue;
-}
-.button4{height: 55px;
-    width: 333px;
-    transition-duration: 0.4s;
-    border-radius: 12px;
-    
-    border: none;
-    color: red;
-    margin-top: 2PX;
-    font-size: 25px;
-    display: block;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    
-
-}.button5{height: 55px;
+.button3 {
+    height: 55px;
     width: 333px;
     transition-duration: 0.4s;
     border-radius: 12px;
     border: none;
     color: red;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    display: block;
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2PX;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.button3:hover {
+    background-color: aliceblue;
+}
+
+.button4:hover {
+    background-color: aliceblue;
+}
+
+.button5:hover {
+    background-color: aliceblue;
+}
+
+.button6:hover {
+    background-color: aliceblue;
+}
+
+.button7:hover {
+    background-color: aliceblue;
+}
+
+.button4 {
+    height: 55px;
+    width: 333px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    border: none;
+    color: red;
+    margin-top: 2PX;
+    font-size: 25px;
+    display: block;
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button5 {
+    height: 55px;
+    width: 333px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    border: none;
+    color: red;
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     display: block;
     text-align: center;
     text-decoration: none;
-  
     margin-top: 2PX;
     font-size: 25px;
-
 }
-.button6{height: 55px;
+
+.button6 {
+    height: 55px;
     width: 333px;
     margin-top: 2PX;
     font-size: 25px;
     transition-duration: 0.4s;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     border-radius: 12px;
-    
     border: none;
     color: red;
     display: block;
     text-align: center;
     text-decoration: none;
-  
-
 }
-.button7{height: 55px;
+
+.button7 {
+    height: 55px;
     width: 333px;
     margin-top: 2px;
     font-size: 18px;
     transition-duration: 0.4s;
     border-radius: 12px;
-   
     border: none;
     color: red;
     display: block;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-  
-
 }
-.button8{height: 50px;
+
+.button8 {
+    height: 50px;
     width: 333px;
     margin-top: 2PX;
     font-size: 18px;
     transition-duration: 0.4s;
     border-radius: 12px;
-  
     border: none;
     color: red;
     display: block;
-    background-image:linear-gradient(to bottom,white,rgb(156,250,218));
+    background-image: linear-gradient(to bottom, white, rgb(156, 250, 218));
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-  
-
-}
-#para{
-   float: right;
-   margin-right: 100px;
-   margin-top: 6.5px;
-   font-size: 20px;
-
 }
 
-#para1{
+#para {
+    float: right;
+    margin-right: 100px;
+    margin-top: 6.5px;
+    font-size: 20px;
+}
+
+#para1 {
     margin-top: 30px;
     font-weight: bold;
     font-size: 25px;
     margin-left: 170px;
 }
-.but{
+
+.but {
     border-radius: 100%;
     height: 23px;
     width: 23px;
     background-color: red;
 }
 
-.rlist{
-    height:51px;
+.rlist {
+    height: 51px;
     margin-top: 3px;
-    width:100%;
+    width: 100%;
     border-radius: 8px;
-    background-color:rgb(201, 192, 192);
-    border-top:2px solid rgb(88, 88, 88);
-    border-bottom:2px solid rgb(88, 88, 88);
+    background-color: rgb(201, 192, 192);
+    border-top: 2px solid rgb(88, 88, 88);
+    border-bottom: 2px solid rgb(88, 88, 88);
 }
-#slide{
+
+#slide {
     position: absolute;
     height: 40px;
     width: 80px;
     margin-left: 30px;
-   
     margin-top: 6px;
     border-radius: 12px;
     background-color: rgb(2, 10, 36);
 }
-#slarr{
+
+#slarr {
     height: 40px;
     width: 50px;
     margin-left: 10px;
-
 }
-#countpage{
-    background-position: linear-gradient(to bottom,#43c6ac,#191654);
+
+#countpage {
+    background-position: linear-gradient(to bottom, #43c6ac, #191654);
     background-color: rgb(181, 185, 184);
     text-align: center;
     height: 500px;
@@ -403,12 +388,511 @@ background-color: rgb(132, 139, 148);
     padding: 50px;
     display: none;
 }
-#countpage h4,p{
+
+#countpage h4, #countpage p {
     color: white;
     font-family: "Roboto";
     font-weight: bold;
     font-size: 20px;
-
-
 }
 
+/* Add some base responsive styles for all devices */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* ==================== MEDIA QUERIES ==================== */
+
+/* Specific fix for 1290px × 1920px resolution */
+@media screen and (width: 1290px) and (height: 1920px), 
+       screen and (width: 1920px) and (height: 1290px) {
+    #div1 {
+        width: 55%;
+        margin-left: 15px;
+    }
+    
+    #div2 {
+        width: 35%;
+        margin-right: 35px;
+    }
+    
+    #subdiv1 {
+        width: 50%;
+        margin-left: 45px;
+    }
+    
+    #subdiv2 {
+        width: 38.5%;
+        margin-right: 20px;
+    }
+    
+    #subdiv3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #turnoff {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #power {
+        margin-left: 90%;
+    }
+    
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    /* Fix for thumbs section */
+    #tick, #wrong {
+        margin: 0 12px;
+    }
+    
+    /* Fix for the control buttons */
+    #reset, #clear {
+        margin: 30px 10px 0;
+    }
+    
+    /* Fix for arrow buttons */
+    #leftarr, #rightarr {
+        margin: 30px 12px 0;
+    }
+}
+
+/* Large desktop screens (1200px and above) */
+@media screen and (min-width: 1200px) {
+    /* Default styles are already optimized for desktop */
+    /* Additional control buttons position fixes for large screens */
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+/* Medium desktop screens (992px to 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #div1 {
+        width: 55%;
+        margin-left: 10px;
+    }
+    
+    #div2 {
+        width: 35%;
+        margin-right: 10px;
+    }
+    
+    #subdiv1 {
+        width: 52%;
+        margin-left: 25px;
+    }
+    
+    #subdiv2 {
+        width: 35%;
+        margin-right: 10px;
+    }
+    
+    .button, .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+        width: 300px;
+        font-size: 22px;
+    }
+    
+    #power {
+        margin-left: 300px;
+    }
+    
+    #subdiv3 {
+        width: 260px;
+        margin-left: 50px;
+    }
+    
+    #turnoff {
+        margin-left: 150px;
+    }
+    
+    #para1 {
+        margin-left: 150px;
+        font-size: 23px;
+    }
+    
+    #para {
+        margin-right: 80px;
+        font-size: 18px;
+    }
+}
+
+/* Tablets (768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #div1 {
+        width: 52%;
+        margin-left: 5px;
+        height: 650px;
+    }
+    
+    #div2 {
+        width: 40%;
+        margin-right: 5px;
+        height: 580px;
+    }
+    
+    #subdiv1 {
+        width: 52%;
+        margin-left: 20px;
+        height: 540px;
+    }
+    
+    #subdiv2 {
+        width: 38%;
+        margin-right: 5px;
+        height: 500px;
+    }
+    
+    .button, .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+        width: 260px;
+        font-size: 18px;
+        height: 45px;
+    }
+    
+    #power {
+        margin-left: 250px;
+    }
+    
+    #subdiv3 {
+        width: 220px;
+        margin-left: 40px;
+        height: 80px;
+    }
+    
+    #turnoff {
+        margin-left: 120px;
+    }
+    
+    #reset, #clear {
+        font-size: 20px;
+        width: 110px;
+        height: 45px;
+    }
+    
+    #para1 {
+        margin-left: 120px;
+        font-size: 22px;
+    }
+    
+    #para {
+        margin-right: 60px;
+        font-size: 18px;
+    }
+    
+    .imgdisplay {
+        width: 70px;
+        height: 60px;
+        margin-left: 80px;
+    }
+    
+    #img1 {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .row {
+        gap: 15px;
+    }
+    
+    #slide {
+        width: 60px;
+    }
+}
+
+/* Large phones and small tablets (576px to 767px) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #div1, #div2 {
+        width: 90%;
+        float: none;
+        margin: 10px auto;
+        height: auto;
+    }
+    
+    #div2 {
+        height: 500px;
+    }
+    
+    #subdiv1, #subdiv2 {
+        width: 90%;
+        float: none;
+        margin: 10px auto;
+        height: auto;
+    }
+    
+    #subdiv1 {
+        padding-bottom: 10px;
+    }
+    
+    #subdiv2 {
+        padding-bottom: 10px;
+        height: 500px;
+    }
+    
+    .button, .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+        width: 90%;
+        max-width: 300px;
+        margin: 8px auto;
+        font-size: 16px;
+        height: 45px;
+    }
+    
+    #power {
+        margin-left: auto;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    #subdiv3 {
+        width: 80%;
+        max-width: 250px;
+        margin: 20px auto;
+    }
+    
+    #turnoff {
+        margin: 0 auto 20px;
+        display: block;
+    }
+    
+    #reset, #clear {
+        font-size: 18px;
+        width: 100px;
+        height: 40px;
+    }
+    
+    #para1 {
+        margin: 20px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #para {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .imgdisplay {
+        margin: 0 auto;
+        display: block;
+    }
+    
+    #img1 {
+        height: 25px;
+        width: 25px;
+    }
+    
+    .row {
+        gap: 12px;
+    }
+    
+    #countpage {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        padding: 20px;
+    }
+}
+
+/* Mobile phones (up to 575px) */
+@media screen and (max-width: 575px) {
+    #div1, #div2 {
+        width: 95%;
+        float: none;
+        margin: 5px auto;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    #div2 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    #subdiv1, #subdiv2 {
+        width: 95%;
+        float: none;
+        margin: 10px auto;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    .button, .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+        width: 95%;
+        max-width: 280px;
+        margin: 5px auto;
+        font-size: 14px;
+        height: 40px;
+    }
+    
+    #power {
+        margin: 10px 10px 0 0;
+        float: right;
+    }
+    
+    #subdiv3 {
+        width: 90%;
+        max-width: 220px;
+        margin: 15px auto;
+        height: 70px;
+    }
+    
+    #turnoff, #tick, #wrong, #leftarr, #rightarr {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+    
+    #turnoff {
+        margin: 0 auto 15px;
+        display: block;
+    }
+    
+    #reset, #clear {
+        font-size: 16px;
+        width: 90px;
+        height: 35px;
+    }
+    
+    #para1 {
+        margin: 15px auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #para {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .imgdisplay {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    #img1 {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .row {
+        gap: 8px;
+    }
+    
+    #slide {
+        width: 50px;
+        height: 30px;
+    }
+    
+    #slarr {
+        height: 30px;
+        width: 40px;
+    }
+    
+    .rlist {
+        height: 40px;
+    }
+    
+    #countpage {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        padding: 15px;
+    }
+    
+    #countpage h4 {
+        font-size: 18px;
+    }
+    
+    #countpage p {
+        font-size: 16px;
+    }
+}
+
+/* Media query for landscape orientation on mobile devices */
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    #div1, #div2 {
+        width: 48%;
+        float: left;
+        height: auto;
+        margin: 5px;
+    }
+    
+    #subdiv1 {
+        width: 52%;
+        height: auto;
+        margin-left: 15px;
+    }
+    
+    #subdiv2 {
+        width: 35%;
+        height: auto;
+    }
+    
+    .button, .button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8 {
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    #para1 {
+        margin-left: 80px;
+        font-size: 16px;
+    }
+    
+    #para {
+        font-size: 14px;
+        margin-right: 50px;
+    }
+    
+    .rlist {
+        height: 35px;
+    }
+    
+    #slide {
+        height: 25px;
+        width: 50px;
+        margin-top: 5px;
+    }
+    
+    #slarr {
+        height: 25px;
+        width: 30px;
+    }
+}
+
+/* Fix for the button-container in all devices */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
